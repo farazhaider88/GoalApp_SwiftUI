@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5937636C27237E5500B20C8F /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5937636B27237E5500B20C8F /* Goal.swift */; };
 		59DF084A271F50C3008DE088 /* GoalsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DF0849271F50C3008DE088 /* GoalsAppApp.swift */; };
 		59DF084C271F50C3008DE088 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DF084B271F50C3008DE088 /* ContentView.swift */; };
 		59DF084E271F50CC008DE088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DF084D271F50CC008DE088 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5937636B27237E5500B20C8F /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
 		59DF0846271F50C3008DE088 /* GoalsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59DF0849271F50C3008DE088 /* GoalsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsAppApp.swift; sourceTree = "<group>"; };
 		59DF084B271F50C3008DE088 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		59DF0869271F5B79008DE088 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5937636B27237E5500B20C8F /* Goal.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59DF084C271F50C3008DE088 /* ContentView.swift in Sources */,
+				5937636C27237E5500B20C8F /* Goal.swift in Sources */,
 				59DF084A271F50C3008DE088 /* GoalsAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
