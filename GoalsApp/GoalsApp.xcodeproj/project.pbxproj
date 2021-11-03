@@ -12,6 +12,7 @@
 		5964148A272F2F5500A1545C /* GoalRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59641489272F2F5500A1545C /* GoalRepositoryProtocol.swift */; };
 		5964148D2731368B00A1545C /* MockGoalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5964148C2731368B00A1545C /* MockGoalRepository.swift */; };
 		5964149127323E8900A1545C /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5964149027323E8900A1545C /* ColorUtils.swift */; };
+		596414962732537300A1545C /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596414952732537300A1545C /* DateUtils.swift */; };
 		59DF084A271F50C3008DE088 /* GoalsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DF0849271F50C3008DE088 /* GoalsAppApp.swift */; };
 		59DF084C271F50C3008DE088 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DF084B271F50C3008DE088 /* ContentView.swift */; };
 		59DF084E271F50CC008DE088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DF084D271F50CC008DE088 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		59641489272F2F5500A1545C /* GoalRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalRepositoryProtocol.swift; sourceTree = "<group>"; };
 		5964148C2731368B00A1545C /* MockGoalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGoalRepository.swift; sourceTree = "<group>"; };
 		5964149027323E8900A1545C /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		596414952732537300A1545C /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 		59DF0846271F50C3008DE088 /* GoalsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59DF0849271F50C3008DE088 /* GoalsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsAppApp.swift; sourceTree = "<group>"; };
 		59DF084B271F50C3008DE088 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				5964149027323E8900A1545C /* ColorUtils.swift */,
+				596414952732537300A1545C /* DateUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59DF084C271F50C3008DE088 /* ContentView.swift in Sources */,
+				596414962732537300A1545C /* DateUtils.swift in Sources */,
 				5964149127323E8900A1545C /* ColorUtils.swift in Sources */,
 				5964148A272F2F5500A1545C /* GoalRepositoryProtocol.swift in Sources */,
 				5964148D2731368B00A1545C /* MockGoalRepository.swift in Sources */,
