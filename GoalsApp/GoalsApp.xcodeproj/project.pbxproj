@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5937636C27237E5500B20C8F /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5937636B27237E5500B20C8F /* Goal.swift */; };
+		5964123B272E883800A1545C /* FirebaseGoalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5964123A272E883800A1545C /* FirebaseGoalRepository.swift */; };
+		5964148A272F2F5500A1545C /* GoalRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59641489272F2F5500A1545C /* GoalRepositoryProtocol.swift */; };
+		5964148D2731368B00A1545C /* MockGoalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5964148C2731368B00A1545C /* MockGoalRepository.swift */; };
 		59DF084A271F50C3008DE088 /* GoalsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DF0849271F50C3008DE088 /* GoalsAppApp.swift */; };
 		59DF084C271F50C3008DE088 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DF084B271F50C3008DE088 /* ContentView.swift */; };
 		59DF084E271F50CC008DE088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DF084D271F50CC008DE088 /* Assets.xcassets */; };
@@ -19,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		5937636B27237E5500B20C8F /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		5964123A272E883800A1545C /* FirebaseGoalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseGoalRepository.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		59641489272F2F5500A1545C /* GoalRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalRepositoryProtocol.swift; sourceTree = "<group>"; };
+		5964148C2731368B00A1545C /* MockGoalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGoalRepository.swift; sourceTree = "<group>"; };
 		59DF0846271F50C3008DE088 /* GoalsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59DF0849271F50C3008DE088 /* GoalsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsAppApp.swift; sourceTree = "<group>"; };
 		59DF084B271F50C3008DE088 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +91,9 @@
 		59DF0863271F5B47008DE088 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				5964123A272E883800A1545C /* FirebaseGoalRepository.swift */,
+				59641489272F2F5500A1545C /* GoalRepositoryProtocol.swift */,
+				5964148C2731368B00A1545C /* MockGoalRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -197,8 +206,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				59DF084C271F50C3008DE088 /* ContentView.swift in Sources */,
+				5964148A272F2F5500A1545C /* GoalRepositoryProtocol.swift in Sources */,
+				5964148D2731368B00A1545C /* MockGoalRepository.swift in Sources */,
 				5937636C27237E5500B20C8F /* Goal.swift in Sources */,
 				59DF084A271F50C3008DE088 /* GoalsAppApp.swift in Sources */,
+				5964123B272E883800A1545C /* FirebaseGoalRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
